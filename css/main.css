@@ -1,0 +1,82 @@
+body {
+	background-color: #ececec;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+	border-top: 22px solid #999;
+	border-left: 22px solid #999;
+}
+
+.site-logo {
+	display: block;
+	width: 605px;
+	height: 240px;
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	float: right;
+
+	/* text-replacement */
+	border: 0; font: 0/0 a; text-shadow: none; color: transparent; 
+}
+
+/**
+ * Hacky language menu
+ */
+.language-wrapper {
+	display: flex;
+	margin-top: 40px;
+}
+.language-selector {
+	display: block;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	text-decoration: none;
+	color: #999;
+}
+.language-wrapper .empty {
+	display: block;
+	width: 262px;
+	border-bottom: 1px solid #999;
+	color: transparent;
+}
+
+/**
+ * Header icons
+ */
+ header .links {
+ 	margin-top: 178px;
+ 	margin-left: 44px;
+ 	margin-bottom: 33px;
+ }
+.icon {
+	display: inline-block;
+	background-color: #8f8f8f;
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	/* text-replacement */
+	border: 0; font: 0/0 a; text-shadow: none; color: transparent;
+	margin-left: 22px;
+}
+.search-icon {
+	background-image: url('../images/search.png');
+}
+
+/**
+ * Menu
+ */
+.menu {
+	background-color: #999;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0.5em 8.66em 0.5em 0;
+}
+.arquivos {
+	background-color: #ececec;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.25em;
+}
