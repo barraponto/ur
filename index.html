@@ -6,7 +6,16 @@ layout: default
 
   <div class="post-list">
     {% for post in site.posts %}
-      
+      <div class="critica">
+        <time>{{post.date|| date: "%d.%m.%Y"}}</time>
+        <img src="../images/{{post.banner}}">
+        <a class="meta"
+          href="{{site.baseurl}}{{post.url}}" 
+          style="background-color:{{post.bgcolor}};">
+          <h2 style="color:{{post.fgcolor}}">{{post.title}}</h2>
+          <p style="color:{{post.fgcolor}}">Por: {{post.author}}</p>
+        </a>
+      </div>
     {% endfor %}
   </div>
 

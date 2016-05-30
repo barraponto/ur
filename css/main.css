@@ -80,3 +80,42 @@ header {
 	font-weight: bold;
 	font-size: 1.25em;
 }
+
+/**
+ * Home Post list
+ */
+.post-list {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.critica {
+	margin-left: 22px;
+	margin-top: 22px;
+}
+.critica time,
+.critica img,
+.critica .meta {
+	display: block;
+}
+.critica time {
+	color: #999;
+}
+.critica img {
+	height: 440px;
+}
+.critica .meta {
+	display: inline-block;
+	margin-top: 0.25em;
+	text-decoration: none;
+
+}
+.critica h2 {
+	font-family: Garamond, Georgia, serif;
+	margin: 0;
+}
+.critica p {
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 0;
+}
